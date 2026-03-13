@@ -1,0 +1,13 @@
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\bin\Debug\net8.0\WongaApplication.Application.deps.json
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\bin\Debug\net8.0\WongaApplication.Application.dll
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\bin\Debug\net8.0\WongaApplication.Application.pdb
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\obj\Debug\net8.0\WongaApplication.Application.csproj.AssemblyReference.cache
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\obj\Debug\net8.0\WongaApplication.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\obj\Debug\net8.0\WongaApplication.Application.AssemblyInfoInputs.cache
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\obj\Debug\net8.0\WongaApplication.Application.AssemblyInfo.cs
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\obj\Debug\net8.0\WongaApplication.Application.csproj.CoreCompileInputs.cache
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\obj\Debug\net8.0\WongaApplication.Application.sourcelink.json
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\obj\Debug\net8.0\WongaApplication.Application.dll
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\obj\Debug\net8.0\refint\WongaApplication.Application.dll
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\obj\Debug\net8.0\WongaApplication.Application.pdb
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Application\obj\Debug\net8.0\ref\WongaApplication.Application.dll

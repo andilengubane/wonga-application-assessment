@@ -1,0 +1,13 @@
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\bin\Debug\net8.0\WongaApplication.Domain.deps.json
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\bin\Debug\net8.0\WongaApplication.Domain.dll
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\bin\Debug\net8.0\WongaApplication.Domain.pdb
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\obj\Debug\net8.0\WongaApplication.Domain.csproj.AssemblyReference.cache
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\obj\Debug\net8.0\WongaApplication.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\obj\Debug\net8.0\WongaApplication.Domain.AssemblyInfoInputs.cache
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\obj\Debug\net8.0\WongaApplication.Domain.AssemblyInfo.cs
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\obj\Debug\net8.0\WongaApplication.Domain.csproj.CoreCompileInputs.cache
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\obj\Debug\net8.0\WongaApplication.Domain.sourcelink.json
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\obj\Debug\net8.0\WongaApplication.Domain.dll
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\obj\Debug\net8.0\refint\WongaApplication.Domain.dll
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\obj\Debug\net8.0\WongaApplication.Domain.pdb
+C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Domain\obj\Debug\net8.0\ref\WongaApplication.Domain.dll
