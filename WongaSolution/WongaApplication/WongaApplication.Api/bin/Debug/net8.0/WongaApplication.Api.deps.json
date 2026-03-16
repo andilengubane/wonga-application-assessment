@@ -1633,7 +1633,8 @@
       "WongaApplication.Application/1.0.0": {
         "dependencies": {
           "MediatR": "13.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.9"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.9",
+          "WongaApplication.Domain": "1.0.0"
         },
         "runtime": {
           "WongaApplication.Application.dll": {

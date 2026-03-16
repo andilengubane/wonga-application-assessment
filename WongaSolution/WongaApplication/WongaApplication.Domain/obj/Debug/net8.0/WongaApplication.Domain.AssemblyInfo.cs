@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WongaApplication.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc3cd8ce950ec8ac26eaa94c37b17a813cede3f4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cdd3cf1201961782cc1c9d52184522300b3d138")]
 [assembly: System.Reflection.AssemblyProductAttribute("WongaApplication.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WongaApplication.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
