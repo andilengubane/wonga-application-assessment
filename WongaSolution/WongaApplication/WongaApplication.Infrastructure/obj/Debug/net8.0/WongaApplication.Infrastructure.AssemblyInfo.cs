@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WongaApplication.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cdd3cf1201961782cc1c9d52184522300b3d138")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f70ddb36045050e3e0a46691d033a2e129efa0f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("WongaApplication.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WongaApplication.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

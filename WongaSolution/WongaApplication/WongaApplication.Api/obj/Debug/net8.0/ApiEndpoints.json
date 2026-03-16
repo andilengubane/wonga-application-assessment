@@ -1,0 +1,49 @@
+[
+  {
+    "ContainingType": "WongaApplication.Api.Controllers.UserController",
+    "Method": "AddUserAsync",
+    "RelativePath": "api/adduserasync",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userEntitiy",
+        "Type": "WongaApplication.Domain.Entities.UserEntitiy",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WongaApplication.Api.Controllers.UserController",
+    "Method": "GetAllUserAsync",
+    "RelativePath": "api/getallusersasync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WongaApplication.Api.Controllers.UserController",
+    "Method": "GetUserByIdAsync",
+    "RelativePath": "api/getuserbyidasync",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

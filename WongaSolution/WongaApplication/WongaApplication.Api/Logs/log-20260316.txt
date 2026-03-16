@@ -32,3 +32,143 @@ ORDER BY \"MigrationId\";"
 2026-03-16 13:51:54.470 +02:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
 ""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
 VALUES ('20260316115115_initialise', '9.0.9');"
+2026-03-16 14:29:41.857 +02:00 [Information] Now listening on: "https://localhost:7293"
+2026-03-16 14:29:41.938 +02:00 [Information] Now listening on: "http://localhost:5190"
+2026-03-16 14:29:42.099 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2026-03-16 14:29:42.099 +02:00 [Information] Hosting environment: "Development"
+2026-03-16 14:29:42.099 +02:00 [Information] Content root path: "C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Api"
+2026-03-16 14:29:45.522 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger""" - null null
+2026-03-16 14:29:46.166 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger""" - 301 0 null 659.7982ms
+2026-03-16 14:29:46.196 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/index.html""" - null null
+2026-03-16 14:29:46.393 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/swagger-ui-bundle.js""" - null null
+2026-03-16 14:29:46.393 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/swagger-ui.css""" - null null
+2026-03-16 14:29:46.393 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 196.911ms
+2026-03-16 14:29:46.393 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/swagger-ui-standalone-preset.js""" - null null
+2026-03-16 14:29:46.419 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-03-16 14:29:46.441 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/_framework/aspnetcore-browser-refresh.js""" - 200 16525 "application/javascript; charset=utf-8" 22.3781ms
+2026-03-16 14:29:46.525 +02:00 [Information] Sending file. Request path: '"/swagger-ui-standalone-preset.js"'. Physical path: '"N/A"'
+2026-03-16 14:29:46.525 +02:00 [Information] Sending file. Request path: '"/swagger-ui.css"'. Physical path: '"N/A"'
+2026-03-16 14:29:46.529 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/swagger-ui-standalone-preset.js""" - 200 230280 "text/javascript" 136.0049ms
+2026-03-16 14:29:46.529 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/swagger-ui.css""" - 200 152034 "text/css" 136.88ms
+2026-03-16 14:29:46.561 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/_vs/browserLink""" - null null
+2026-03-16 14:29:46.582 +02:00 [Information] Sending file. Request path: '"/swagger-ui-bundle.js"'. Physical path: '"N/A"'
+2026-03-16 14:29:46.582 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/swagger-ui-bundle.js""" - 200 1456926 "text/javascript" 189.6033ms
+2026-03-16 14:29:46.761 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 201.9727ms
+2026-03-16 14:29:47.035 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/v1/swagger.json""" - null null
+2026-03-16 14:29:47.064 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 29.2673ms
+2026-03-16 14:29:47.074 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/favicon-32x32.png""" - null null
+2026-03-16 14:29:47.075 +02:00 [Information] Sending file. Request path: '"/favicon-32x32.png"'. Physical path: '"N/A"'
+2026-03-16 14:29:47.075 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/favicon-32x32.png""" - 200 628 "image/png" 1.3224ms
+2026-03-16 14:31:18.579 +02:00 [Information] Request starting "HTTP/2" "POST" "https"://"localhost:7293""""/api/adduserasync""" - "application/json" 166
+2026-03-16 14:31:18.586 +02:00 [Information] Executing endpoint '"WongaApplication.Api.Controllers.UserController.AddUserAsync (WongaApplication.Api)"'
+2026-03-16 14:31:18.616 +02:00 [Information] Route matched with "{action = \"AddUser\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] AddUserAsync(WongaApplication.Domain.Entities.UserEntitiy)" on controller "WongaApplication.Api.Controllers.UserController" ("WongaApplication.Api").
+2026-03-16 14:31:18.620 +02:00 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-03-16 14:31:28.201 +02:00 [Information] Executed DbCommand ("145"ms) [Parameters=["@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?'"], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"User\" (\"Id\", \"DateLogged\", \"Password\", \"Username\")
+VALUES (@p0, @p1, @p2, @p3);"
+2026-03-16 14:31:33.290 +02:00 [Information] Add user details 2026/03/16 00:00:00: WongaApplication.Domain.Entities.UserEntitiy
+2026-03-16 14:31:34.766 +02:00 [Information] Executing "OkObjectResult", writing value of type '"WongaApplication.Domain.Entities.UserEntitiy"'.
+2026-03-16 14:31:37.531 +02:00 [Information] Executed action "WongaApplication.Api.Controllers.UserController.AddUserAsync (WongaApplication.Api)" in 18909.3739ms
+2026-03-16 14:31:37.532 +02:00 [Information] Executed endpoint '"WongaApplication.Api.Controllers.UserController.AddUserAsync (WongaApplication.Api)"'
+2026-03-16 14:31:37.542 +02:00 [Information] Request finished "HTTP/2" "POST" "https"://"localhost:7293""""/api/adduserasync""" - 200 null "application/json; charset=utf-8" 18965.6091ms
+2026-03-16 14:33:35.744 +02:00 [Information] Now listening on: "https://localhost:7293"
+2026-03-16 14:33:35.795 +02:00 [Information] Now listening on: "http://localhost:5190"
+2026-03-16 14:33:35.940 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2026-03-16 14:33:35.940 +02:00 [Information] Hosting environment: "Development"
+2026-03-16 14:33:35.940 +02:00 [Information] Content root path: "C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Api"
+2026-03-16 14:33:39.074 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/index.html""" - null null
+2026-03-16 14:33:39.542 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 480.6662ms
+2026-03-16 14:33:39.590 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/_vs/browserLink""" - null null
+2026-03-16 14:33:39.591 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-03-16 14:33:39.608 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/_framework/aspnetcore-browser-refresh.js""" - 200 16525 "application/javascript; charset=utf-8" 13.467ms
+2026-03-16 14:33:39.703 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 112.6824ms
+2026-03-16 14:33:40.097 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/v1/swagger.json""" - null null
+2026-03-16 14:33:40.126 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 28.9162ms
+2026-03-16 14:34:16.471 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/api/getallusersasync""" - null null
+2026-03-16 14:34:16.482 +02:00 [Information] Executing endpoint '"WongaApplication.Api.Controllers.UserController.GetAllUserAsync (WongaApplication.Api)"'
+2026-03-16 14:34:16.506 +02:00 [Information] Route matched with "{action = \"GetAllUser\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync()" on controller "WongaApplication.Api.Controllers.UserController" ("WongaApplication.Api").
+2026-03-16 14:34:16.510 +02:00 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-03-16 14:34:18.011 +02:00 [Information] Executed DbCommand ("30"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT u.\"Id\", u.\"DateLogged\", u.\"Password\", u.\"Username\"
+FROM \"User\" AS u"
+2026-03-16 14:34:18.184 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[WongaApplication.Domain.Entities.UserEntitiy, WongaApplication.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-03-16 14:34:18.210 +02:00 [Information] Executed action "WongaApplication.Api.Controllers.UserController.GetAllUserAsync (WongaApplication.Api)" in 1698.9915ms
+2026-03-16 14:34:18.211 +02:00 [Information] Executed endpoint '"WongaApplication.Api.Controllers.UserController.GetAllUserAsync (WongaApplication.Api)"'
+2026-03-16 14:34:18.222 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/api/getallusersasync""" - 200 null "application/json; charset=utf-8" 1753.423ms
+2026-03-16 14:34:53.451 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/api/getuserbyidasync""?username=mthembungubane%40gmail.com" - null null
+2026-03-16 14:34:53.454 +02:00 [Information] Executing endpoint '"WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)"'
+2026-03-16 14:34:53.472 +02:00 [Information] Route matched with "{action = \"GetUserById\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByIdAsync(System.String, System.String)" on controller "WongaApplication.Api.Controllers.UserController" ("WongaApplication.Api").
+2026-03-16 14:34:53.519 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-03-16 14:34:53.547 +02:00 [Information] Executed action "WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)" in 74.8577ms
+2026-03-16 14:34:53.547 +02:00 [Information] Executed endpoint '"WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)"'
+2026-03-16 14:34:53.547 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/api/getuserbyidasync""?username=mthembungubane%40gmail.com" - 400 null "application/problem+json; charset=utf-8" 96.7366ms
+2026-03-16 14:35:04.388 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/api/getuserbyidasync""?username=mthembungubane%40gmail.com" - null null
+2026-03-16 14:35:04.393 +02:00 [Information] Executing endpoint '"WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)"'
+2026-03-16 14:35:04.397 +02:00 [Information] Route matched with "{action = \"GetUserById\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByIdAsync(System.String, System.String)" on controller "WongaApplication.Api.Controllers.UserController" ("WongaApplication.Api").
+2026-03-16 14:35:04.401 +02:00 [Information] Executing "BadRequestObjectResult", writing value of type '"Microsoft.AspNetCore.Mvc.ValidationProblemDetails"'.
+2026-03-16 14:35:04.402 +02:00 [Information] Executed action "WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)" in 4.9755ms
+2026-03-16 14:35:04.402 +02:00 [Information] Executed endpoint '"WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)"'
+2026-03-16 14:35:04.402 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/api/getuserbyidasync""?username=mthembungubane%40gmail.com" - 400 null "application/problem+json; charset=utf-8" 16.1205ms
+2026-03-16 14:36:56.695 +02:00 [Information] Now listening on: "https://localhost:7293"
+2026-03-16 14:36:56.737 +02:00 [Information] Now listening on: "http://localhost:5190"
+2026-03-16 14:36:56.875 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2026-03-16 14:36:56.875 +02:00 [Information] Hosting environment: "Development"
+2026-03-16 14:36:56.876 +02:00 [Information] Content root path: "C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Api"
+2026-03-16 14:36:59.685 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/index.html""" - null null
+2026-03-16 14:37:00.141 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 471.7559ms
+2026-03-16 14:37:00.153 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/_vs/browserLink""" - null null
+2026-03-16 14:37:00.153 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-03-16 14:37:00.186 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/_framework/aspnetcore-browser-refresh.js""" - 200 16525 "application/javascript; charset=utf-8" 33.0594ms
+2026-03-16 14:37:00.269 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 115.2884ms
+2026-03-16 14:37:00.428 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/v1/swagger.json""" - null null
+2026-03-16 14:37:00.453 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 28.5276ms
+2026-03-16 14:41:42.154 +02:00 [Information] Now listening on: "https://localhost:7293"
+2026-03-16 14:41:42.220 +02:00 [Information] Now listening on: "http://localhost:5190"
+2026-03-16 14:41:42.381 +02:00 [Information] Application started. Press Ctrl+C to shut down.
+2026-03-16 14:41:42.382 +02:00 [Information] Hosting environment: "Development"
+2026-03-16 14:41:42.382 +02:00 [Information] Content root path: "C:\Git\WongaApplication\WongaSolution\WongaApplication\WongaApplication.Api"
+2026-03-16 14:41:47.823 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/index.html""" - null null
+2026-03-16 14:41:48.554 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/index.html""" - 200 null "text/html;charset=utf-8" 747.2809ms
+2026-03-16 14:41:48.598 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/_vs/browserLink""" - null null
+2026-03-16 14:41:48.599 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/_framework/aspnetcore-browser-refresh.js""" - null null
+2026-03-16 14:41:48.659 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/_framework/aspnetcore-browser-refresh.js""" - 200 16525 "application/javascript; charset=utf-8" 59.6403ms
+2026-03-16 14:41:48.864 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/_vs/browserLink""" - 200 null "text/javascript; charset=UTF-8" 265.9313ms
+2026-03-16 14:41:49.064 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/v1/swagger.json""" - null null
+2026-03-16 14:41:49.100 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/swagger/v1/swagger.json""" - 200 null "application/json;charset=utf-8" 35.7948ms
+2026-03-16 14:42:20.946 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/api/getallusersasync""" - null null
+2026-03-16 14:42:20.958 +02:00 [Information] Executing endpoint '"WongaApplication.Api.Controllers.UserController.GetAllUserAsync (WongaApplication.Api)"'
+2026-03-16 14:42:20.992 +02:00 [Information] Route matched with "{action = \"GetAllUser\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllUserAsync()" on controller "WongaApplication.Api.Controllers.UserController" ("WongaApplication.Api").
+2026-03-16 14:42:20.999 +02:00 [Warning] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-03-16 14:42:22.634 +02:00 [Information] Executed DbCommand ("25"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT u.\"Id\", u.\"DateLogged\", u.\"Password\", u.\"Username\"
+FROM \"User\" AS u"
+2026-03-16 14:42:22.807 +02:00 [Information] Executing "OkObjectResult", writing value of type '"System.Collections.Generic.List`1[[WongaApplication.Domain.Entities.UserEntitiy, WongaApplication.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'.
+2026-03-16 14:42:22.832 +02:00 [Information] Executed action "WongaApplication.Api.Controllers.UserController.GetAllUserAsync (WongaApplication.Api)" in 1835.631ms
+2026-03-16 14:42:22.833 +02:00 [Information] Executed endpoint '"WongaApplication.Api.Controllers.UserController.GetAllUserAsync (WongaApplication.Api)"'
+2026-03-16 14:42:22.843 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/api/getallusersasync""" - 200 null "application/json; charset=utf-8" 1896.8779ms
+2026-03-16 14:42:45.915 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/api/getuserbyidasync""?username=mthembungubane%40gmail.com&password=Andile123%21%40%23" - null null
+2026-03-16 14:42:45.918 +02:00 [Information] Executing endpoint '"WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)"'
+2026-03-16 14:42:45.938 +02:00 [Information] Route matched with "{action = \"GetUserById\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByIdAsync(System.String, System.String)" on controller "WongaApplication.Api.Controllers.UserController" ("WongaApplication.Api").
+2026-03-16 14:42:46.162 +02:00 [Information] Executed DbCommand ("15"ms) [Parameters=["@__password_0='?', @__usernae_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT u.\"Id\", u.\"DateLogged\", u.\"Password\", u.\"Username\"
+FROM \"User\" AS u
+WHERE u.\"Password\" = @__password_0 AND u.\"Username\" = @__usernae_1
+LIMIT 1"
+2026-03-16 14:42:46.164 +02:00 [Information] User details: WongaApplication.Domain.Entities.UserEntitiy
+2026-03-16 14:42:46.164 +02:00 [Information] Executing "OkObjectResult", writing value of type '"WongaApplication.Domain.Entities.UserEntitiy"'.
+2026-03-16 14:42:46.165 +02:00 [Information] Executed action "WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)" in 226.1612ms
+2026-03-16 14:42:46.165 +02:00 [Information] Executed endpoint '"WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)"'
+2026-03-16 14:42:46.165 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/api/getuserbyidasync""?username=mthembungubane%40gmail.com&password=Andile123%21%40%23" - 200 null "application/json; charset=utf-8" 249.8708ms
+2026-03-16 14:42:56.776 +02:00 [Information] Request starting "HTTP/2" "GET" "https"://"localhost:7293""""/api/getuserbyidasync""?username=mthembungubane%40gmail.com&password=Andile123%21%40%23" - null null
+2026-03-16 14:42:56.778 +02:00 [Information] Executing endpoint '"WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)"'
+2026-03-16 14:42:56.785 +02:00 [Information] Route matched with "{action = \"GetUserById\", controller = \"User\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserByIdAsync(System.String, System.String)" on controller "WongaApplication.Api.Controllers.UserController" ("WongaApplication.Api").
+2026-03-16 14:42:56.909 +02:00 [Information] Executed DbCommand ("2"ms) [Parameters=["@__password_0='?', @__usernae_1='?'"], CommandType='Text', CommandTimeout='30']"
+""SELECT u.\"Id\", u.\"DateLogged\", u.\"Password\", u.\"Username\"
+FROM \"User\" AS u
+WHERE u.\"Password\" = @__password_0 AND u.\"Username\" = @__usernae_1
+LIMIT 1"
+2026-03-16 14:42:56.910 +02:00 [Information] User details: WongaApplication.Domain.Entities.UserEntitiy
+2026-03-16 14:42:56.910 +02:00 [Information] Executing "OkObjectResult", writing value of type '"WongaApplication.Domain.Entities.UserEntitiy"'.
+2026-03-16 14:42:56.910 +02:00 [Information] Executed action "WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)" in 124.5489ms
+2026-03-16 14:42:56.911 +02:00 [Information] Executed endpoint '"WongaApplication.Api.Controllers.UserController.GetUserByIdAsync (WongaApplication.Api)"'
+2026-03-16 14:42:56.911 +02:00 [Information] Request finished "HTTP/2" "GET" "https"://"localhost:7293""""/api/getuserbyidasync""?username=mthembungubane%40gmail.com&password=Andile123%21%40%23" - 200 null "application/json; charset=utf-8" 135.4389ms

@@ -16,8 +16,8 @@ namespace WongaApplication.Api.Controllers
             return Ok(result);
         }
 
-        [HttpGet("api/getuserbyidasync/{id}")]
-        public async Task<IActionResult> GetUserByIdAsync([FromRoute] string password, string username)
+        [HttpGet("api/getuserbyidasync")]
+        public async Task<IActionResult> GetUserByIdAsync(string username, string password)
         {
             var result = await sender.Send(new GetUserByIdQuery(password, username));
             if (result is not null)

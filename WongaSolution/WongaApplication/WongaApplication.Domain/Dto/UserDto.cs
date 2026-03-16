@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
-namespace WongaApplication.Domain.Entities
+namespace WongaApplication.Domain.Dto
 {
-    public class UserEntitiy
+    public class UserDto
     {
         public Guid Id { get; set; }
 
