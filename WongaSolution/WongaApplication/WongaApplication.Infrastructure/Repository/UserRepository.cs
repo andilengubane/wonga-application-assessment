@@ -12,14 +12,14 @@ namespace WongaApplication.Infrastructure.Repository
             return await _wongaApplicationContext.User.ToListAsync();
         }
 
-        public async Task<UserEntitiy> GetUserByIdAsync(Guid Id)
+        public async Task<UserEntitiy> GetUserByIdAsync(string password, string usernae)
         {
-            var purchaseAirtimeToken = await _wongaApplicationContext.User.FirstOrDefaultAsync(u => u.Id == Id);
+            var userEntitiy = await _wongaApplicationContext.User.FirstOrDefaultAsync(u => u.Password == password && u.Username == usernae);
 
-            if (purchaseAirtimeToken == null)
-                throw new KeyNotFoundException($"No user  registration found with Id: {Id}");
+            if (userEntitiy == null)
+                throw new KeyNotFoundException($"No user  registration found with Id: {usernae}");
 
-            return purchaseAirtimeToken;
+            return userEntitiy;
         }
 
         public async Task<UserEntitiy> AddUserAsync(UserEntitiy user)

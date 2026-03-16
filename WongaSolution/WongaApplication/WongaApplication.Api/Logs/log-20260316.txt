@@ -1,0 +1,34 @@
+2026-03-16 13:38:01.238 +02:00 [Error] An error occurred using the connection to database '""' on server '"tcp://localhost port=5432 dbname=WongaDabaase user=postgres password=Andile123!@#:5432"'.
+2026-03-16 13:44:10.229 +02:00 [Error] An error occurred using the connection to database '""' on server '"tcp://localhost port=5432 dbname=WongaDabaase user=postgres password=Andile123!@#:5432"'.
+2026-03-16 13:44:44.827 +02:00 [Error] An error occurred using the connection to database '""' on server '"tcp://localhost port=5432 dbname=WongaDabaase user=postgres:5432"'.
+2026-03-16 13:46:02.747 +02:00 [Error] An error occurred using the connection to database '""' on server '"tcp://localhost port=5432 dbname=WongaDabaase user=postgres password=Andile123!@#:5432"'.
+2026-03-16 13:47:42.334 +02:00 [Error] An error occurred using the connection to database '""' on server '"tcp://localhost port=5432 dbname=WongaDabaase user=postgres password=Andile123!@#:5432"'.
+2026-03-16 13:49:38.112 +02:00 [Error] An error occurred using the connection to database '""' on server '""'.
+2026-03-16 13:51:46.090 +02:00 [Error] An error occurred using the connection to database '"WongaDatabase"' on server '"tcp://localhost:5432"'.
+2026-03-16 13:51:53.855 +02:00 [Information] Executed DbCommand ("7,061"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE DATABASE \"WongaDatabase\";"
+2026-03-16 13:51:54.387 +02:00 [Information] Executed DbCommand ("48"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE IF NOT EXISTS \"__EFMigrationsHistory\" (
+    \"MigrationId\" character varying(150) NOT NULL,
+    \"ProductVersion\" character varying(32) NOT NULL,
+    CONSTRAINT \"PK___EFMigrationsHistory\" PRIMARY KEY (\"MigrationId\")
+);"
+2026-03-16 13:51:54.396 +02:00 [Information] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2026-03-16 13:51:54.398 +02:00 [Information] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""LOCK TABLE \"__EFMigrationsHistory\" IN ACCESS EXCLUSIVE MODE"
+2026-03-16 13:51:54.406 +02:00 [Information] Executed DbCommand ("7"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT \"MigrationId\", \"ProductVersion\"
+FROM \"__EFMigrationsHistory\"
+ORDER BY \"MigrationId\";"
+2026-03-16 13:51:54.420 +02:00 [Information] Applying migration '"20260316115115_initialise"'.
+2026-03-16 13:51:54.466 +02:00 [Information] Executed DbCommand ("38"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""CREATE TABLE \"User\" (
+    \"Id\" uuid NOT NULL,
+    \"Username\" text NOT NULL,
+    \"Password\" text NOT NULL,
+    \"DateLogged\" timestamp with time zone NOT NULL,
+    CONSTRAINT \"PK_User\" PRIMARY KEY (\"Id\")
+);"
+2026-03-16 13:51:54.470 +02:00 [Information] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""INSERT INTO \"__EFMigrationsHistory\" (\"MigrationId\", \"ProductVersion\")
+VALUES ('20260316115115_initialise', '9.0.9');"
