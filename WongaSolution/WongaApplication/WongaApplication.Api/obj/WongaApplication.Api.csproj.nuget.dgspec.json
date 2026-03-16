@@ -152,7 +152,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Domain\\WongaApplication.Domain.csproj": {
+                "projectPath": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Domain\\WongaApplication.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

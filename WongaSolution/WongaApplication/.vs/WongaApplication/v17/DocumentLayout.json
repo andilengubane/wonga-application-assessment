@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F74D3FE-137E-4429-932B-6C24701BB699}|WongaApplication.Infrastructure\\WongaApplication.Infrastructure.csproj|c:\\git\\wongaapplication\\wongasolution\\wongaapplication\\wongaapplication.infrastructure\\infrastructuredependancyregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F74D3FE-137E-4429-932B-6C24701BB699}|WongaApplication.Infrastructure\\WongaApplication.Infrastructure.csproj|solutionrelative:wongaapplication.infrastructure\\infrastructuredependancyregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8389548C-4974-4F11-BA34-DD3D97CFD3A5}|WongaApplication.Domain\\WongaApplication.Domain.csproj|c:\\git\\wongaapplication\\wongasolution\\wongaapplication\\wongaapplication.domain\\options\\connectiostringoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8389548C-4974-4F11-BA34-DD3D97CFD3A5}|WongaApplication.Domain\\WongaApplication.Domain.csproj|solutionrelative:wongaapplication.domain\\options\\connectiostringoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F74D3FE-137E-4429-932B-6C24701BB699}|WongaApplication.Infrastructure\\WongaApplication.Infrastructure.csproj|c:\\git\\wongaapplication\\wongasolution\\wongaapplication\\wongaapplication.infrastructure\\data\\wongaapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F74D3FE-137E-4429-932B-6C24701BB699}|WongaApplication.Infrastructure\\WongaApplication.Infrastructure.csproj|solutionrelative:wongaapplication.infrastructure\\data\\wongaapplicationcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F74D3FE-137E-4429-932B-6C24701BB699}|WongaApplication.Infrastructure\\WongaApplication.Infrastructure.csproj|c:\\git\\wongaapplication\\wongasolution\\wongaapplication\\wongaapplication.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F74D3FE-137E-4429-932B-6C24701BB699}|WongaApplication.Infrastructure\\WongaApplication.Infrastructure.csproj|solutionrelative:wongaapplication.infrastructure\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8389548C-4974-4F11-BA34-DD3D97CFD3A5}|WongaApplication.Domain\\WongaApplication.Domain.csproj|c:\\git\\wongaapplication\\wongasolution\\wongaapplication\\wongaapplication.domain\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8389548C-4974-4F11-BA34-DD3D97CFD3A5}|WongaApplication.Domain\\WongaApplication.Domain.csproj|solutionrelative:wongaapplication.domain\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8389548C-4974-4F11-BA34-DD3D97CFD3A5}|WongaApplication.Domain\\WongaApplication.Domain.csproj|c:\\git\\wongaapplication\\wongasolution\\wongaapplication\\wongaapplication.domain\\domaindepandacyregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8389548C-4974-4F11-BA34-DD3D97CFD3A5}|WongaApplication.Domain\\WongaApplication.Domain.csproj|solutionrelative:wongaapplication.domain\\domaindepandacyregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F29C2BD-F4E6-45DA-8E22-F46B2B66E10B}|WongaApplication.Api\\WongaApplication.Api.csproj|c:\\git\\wongaapplication\\wongasolution\\wongaapplication\\wongaapplication.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F29C2BD-F4E6-45DA-8E22-F46B2B66E10B}|WongaApplication.Api\\WongaApplication.Api.csproj|solutionrelative:wongaapplication.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB38ECB-F806-4A82-ABA1-36114BF4B7F3}|WongaApplication.Application\\WongaApplication.Application.csproj|c:\\git\\wongaapplication\\wongasolution\\wongaapplication\\wongaapplication.application\\command\\usercommand\\addusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB38ECB-F806-4A82-ABA1-36114BF4B7F3}|WongaApplication.Application\\WongaApplication.Application.csproj|solutionrelative:wongaapplication.application\\command\\usercommand\\addusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB38ECB-F806-4A82-ABA1-36114BF4B7F3}|WongaApplication.Application\\WongaApplication.Application.csproj|c:\\git\\wongaapplication\\wongasolution\\wongaapplication\\wongaapplication.application\\quiries\\userquiries\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB38ECB-F806-4A82-ABA1-36114BF4B7F3}|WongaApplication.Application\\WongaApplication.Application.csproj|solutionrelative:wongaapplication.application\\quiries\\userquiries\\getallusersquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CB38ECB-F806-4A82-ABA1-36114BF4B7F3}|WongaApplication.Application\\WongaApplication.Application.csproj|c:\\git\\wongaapplication\\wongasolution\\wongaapplication\\wongaapplication.application\\quiries\\userquiries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CB38ECB-F806-4A82-ABA1-36114BF4B7F3}|WongaApplication.Application\\WongaApplication.Application.csproj|solutionrelative:wongaapplication.application\\quiries\\userquiries\\getuserbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -90,7 +86,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WongaApplication.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WongaApplication.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:05:46.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddUserCommand.cs",
+              "DocumentMoniker": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Application\\Command\\UserCommand\\AddUserCommand.cs",
+              "RelativeDocumentMoniker": "WongaApplication.Application\\Command\\UserCommand\\AddUserCommand.cs",
+              "ToolTip": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Application\\Command\\UserCommand\\AddUserCommand.cs",
+              "RelativeToolTip": "WongaApplication.Application\\Command\\UserCommand\\AddUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:05:43.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "GetUserByIdQuery.cs",
+              "DocumentMoniker": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Application\\Quiries\\UserQuiries\\GetUserByIdQuery.cs",
+              "RelativeDocumentMoniker": "WongaApplication.Application\\Quiries\\UserQuiries\\GetUserByIdQuery.cs",
+              "ToolTip": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Application\\Quiries\\UserQuiries\\GetUserByIdQuery.cs",
+              "RelativeToolTip": "WongaApplication.Application\\Quiries\\UserQuiries\\GetUserByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:05:40.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetAllUsersQuery.cs",
+              "DocumentMoniker": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Application\\Quiries\\UserQuiries\\GetAllUsersQuery.cs",
+              "RelativeDocumentMoniker": "WongaApplication.Application\\Quiries\\UserQuiries\\GetAllUsersQuery.cs",
+              "ToolTip": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Application\\Quiries\\UserQuiries\\GetAllUsersQuery.cs",
+              "RelativeToolTip": "WongaApplication.Application\\Quiries\\UserQuiries\\GetAllUsersQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T08:00:28.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Domain\\Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "WongaApplication.Domain\\Interface\\IUserRepository.cs",
@@ -99,71 +147,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-13T10:30:48.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Infrastructure\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "WongaApplication.Infrastructure\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Infrastructure\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "WongaApplication.Infrastructure\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T10:30:20.46Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WongaApplicationContext.cs",
-              "DocumentMoniker": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Infrastructure\\Data\\WongaApplicationContext.cs",
-              "RelativeDocumentMoniker": "WongaApplication.Infrastructure\\Data\\WongaApplicationContext.cs",
-              "ToolTip": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Infrastructure\\Data\\WongaApplicationContext.cs",
-              "RelativeToolTip": "WongaApplication.Infrastructure\\Data\\WongaApplicationContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T10:29:42.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ConnectioStringOptions.cs",
-              "DocumentMoniker": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Domain\\Options\\ConnectioStringOptions.cs",
-              "RelativeDocumentMoniker": "WongaApplication.Domain\\Options\\ConnectioStringOptions.cs",
-              "ToolTip": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Domain\\Options\\ConnectioStringOptions.cs",
-              "RelativeToolTip": "WongaApplication.Domain\\Options\\ConnectioStringOptions.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T10:24:17.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "InfrastructureDependancyRegister.cs",
-              "DocumentMoniker": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Infrastructure\\InfrastructureDependancyRegister.cs",
-              "RelativeDocumentMoniker": "WongaApplication.Infrastructure\\InfrastructureDependancyRegister.cs",
-              "ToolTip": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Infrastructure\\InfrastructureDependancyRegister.cs",
-              "RelativeToolTip": "WongaApplication.Infrastructure\\InfrastructureDependancyRegister.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T08:20:00.297Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DomainDepandacyRegister.cs",
-              "DocumentMoniker": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Domain\\DomainDepandacyRegister.cs",
-              "RelativeDocumentMoniker": "WongaApplication.Domain\\DomainDepandacyRegister.cs",
-              "ToolTip": "C:\\Git\\WongaApplication\\WongaSolution\\WongaApplication\\WongaApplication.Domain\\DomainDepandacyRegister.cs",
-              "RelativeToolTip": "WongaApplication.Domain\\DomainDepandacyRegister.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-13T08:19:33.584Z",
               "EditorCaption": ""
             }
           ]
