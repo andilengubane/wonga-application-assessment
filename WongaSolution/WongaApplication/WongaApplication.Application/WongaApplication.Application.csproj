@@ -7,13 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Command\User\" />
-    <Folder Include="Quiries\User\" />
+    <PackageReference Include="MediatR" Version="13.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.9" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="MediatR" Version="13.0.0" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.9" />
+    <ProjectReference Include="..\WongaApplication.Domain\WongaApplication.Domain.csproj" />
   </ItemGroup>
 
 </Project>

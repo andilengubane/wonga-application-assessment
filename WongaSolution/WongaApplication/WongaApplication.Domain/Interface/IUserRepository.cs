@@ -4,8 +4,8 @@ namespace WongaApplication.Domain.Interface
 {
     public interface IUserRepository
     {
-        Task<IEnumerable<User>> GetAllPurchaseAirtimeTokenAsync();
-        Task<User> GetUserByIdAsync(Guid Id);
-        Task<User> AddUserAsync(User user);
+        Task<IEnumerable<UserEntitiy>> GetAllUserAsync();
+        Task<UserEntitiy> GetUserByIdAsync(Guid Id);
+        Task<UserEntitiy> AddUserAsync(UserEntitiy user);
     }
 }
