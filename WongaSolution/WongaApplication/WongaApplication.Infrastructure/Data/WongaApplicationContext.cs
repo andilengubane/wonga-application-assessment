@@ -10,6 +10,6 @@ namespace WongaApplication.Infrastructure.Data
                : base(option)
         {
         }
-        public DbSet<User> User { get; set; }
+        public DbSet<UserEntitiy> User { get; set; }
     }
 }

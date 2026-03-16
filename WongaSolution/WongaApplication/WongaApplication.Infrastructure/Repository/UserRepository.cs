@@ -7,12 +7,12 @@ namespace WongaApplication.Infrastructure.Repository
 {
     public class UserRepository(WongaApplicationContext _wongaApplicationContext) : IUserRepository
     {
-        public async Task<IEnumerable<User>> GetAllPurchaseAirtimeTokenAsync()
+        public async Task<IEnumerable<UserEntitiy>> GetAllUserAsync()
         {
             return await _wongaApplicationContext.User.ToListAsync();
         }
 
-        public async Task<User> GetUserByIdAsync(Guid Id)
+        public async Task<UserEntitiy> GetUserByIdAsync(Guid Id)
         {
             var purchaseAirtimeToken = await _wongaApplicationContext.User.FirstOrDefaultAsync(u => u.Id == Id);
 
@@ -22,7 +22,7 @@ namespace WongaApplication.Infrastructure.Repository
             return purchaseAirtimeToken;
         }
 
-        public async Task<User> AddUserAsync(User user)
+        public async Task<UserEntitiy> AddUserAsync(UserEntitiy user)
         {
             user.Id = Guid.NewGuid();
             _wongaApplicationContext.Add(user);

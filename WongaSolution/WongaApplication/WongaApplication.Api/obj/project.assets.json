@@ -2710,7 +2710,8 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "MediatR": "13.0.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.9"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.9",
+          "WongaApplication.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WongaApplication.Application.dll": {}
