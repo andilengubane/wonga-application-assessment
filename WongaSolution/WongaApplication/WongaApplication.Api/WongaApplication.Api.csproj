@@ -22,10 +22,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="log\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\WongaApplication.Application\WongaApplication.Application.csproj" />
     <ProjectReference Include="..\WongaApplication.Infrastructure\WongaApplication.Infrastructure.csproj" />
   </ItemGroup>
